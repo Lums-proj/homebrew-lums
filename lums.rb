@@ -1,9 +1,10 @@
 require "formula"
 
 class Lums < Formula
-  homepage ""
+  homepage "https://github.com/Lums-proj/Lums"
   url "https://github.com/Lums-proj/Lums/archive/v2.0.0.tar.gz"
   sha1 "d22340048e552716e2c544044c4ee9ef3ad9cb50"
+  head "https://github.com/Lums-proj/Lums.git"
 
   depends_on "cmake"
   depends_on "sdl2"
