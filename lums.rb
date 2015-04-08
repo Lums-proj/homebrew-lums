@@ -2,8 +2,8 @@ require "formula"
 
 class Lums < Formula
   homepage "https://github.com/Lums-proj/Lums"
-  url "https://github.com/Lums-proj/Lums/archive/v2.5.0.tar.gz"
-  sha1 "6762b64f1ba650b3493481c85da6331ead70d5af"
+  url "https://github.com/Lums-proj/Lums/archive/2.8.tar.gz"
+  sha256 "23afd19c20896c1b3bfae787f3fc80100a20e0d0788baa59022ae722ba880a0e"
   head "https://github.com/Lums-proj/Lums.git"
 
   depends_on 'cmake' => :build
